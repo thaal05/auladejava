@@ -1,5 +1,5 @@
 //Crie duas variáveis inteiras e mostre qual delas é maior.
-    
+
 public class Main {
     public static void main(String[] args) {
         int numero1 = 10;
