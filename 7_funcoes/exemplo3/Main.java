@@ -4,14 +4,17 @@ public class Main {
         if (passarEletricidade() == true){
             if (acenderLampada() == true){
                 System.out.println("Lampada acendeu!");
+                return true;
             } else {
                 System.out.println("Lampada queimou!");
+                return false;
             }
         } else {
             System.out.println("Problema no circuito!");
-        }
+                return false;
         }
     }
+    
 
     static boolean passarEletricidade(){
         return true;
@@ -22,7 +25,11 @@ public class Main {
     }
 
     public static void main(String[] args){
-      System.out.println(ligarInterruptor());
+      if (ligarInterruptor()== true){
+        System.out.println("Processo funcionou!");
+      } else {
+        System.out.println("Processo falhou!");
+      }
     }
-    
 }
+
