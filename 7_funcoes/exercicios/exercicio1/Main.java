@@ -1,4 +1,4 @@
-// crie um programa contendo uma funcção que irá receber um valor inteiro.
+// crie um programa contendo uma função que irá receber um valor inteiro.
 // o programa deverá exibir se o valor é: menor que zero, igual a zero ou maior que zero.
 
 public class Main {
