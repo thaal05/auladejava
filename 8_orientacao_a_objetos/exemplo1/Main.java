@@ -1,15 +1,19 @@
-public class Main {
+class personagem {
+    String nome = "Heroi";
+    int idade;
+    int poder;
+}
+    
+    public class Main {
+    public static void main(String[] args){
+        personagem persona = new personagem();
 
-    public static void main(String[] args) {
-
-        Personagem persona = new Personagem();
-
-        persona.nome = "Pateta";
         persona.idade = 42;
         persona.poder = 4;
 
         System.out.println(persona.nome);
         System.out.println(persona.idade);
         System.out.println(persona.poder);
+        
     }
-}
+} 
